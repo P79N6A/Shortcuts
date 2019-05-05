@@ -4,4 +4,4 @@
 
 **本项目基于[ lhie1/Rules ](https://github.com/lhie1/Rules)修改。**
 
-[**本项目的快捷指令 iCloud 链接**](https://www.icloud.com/shortcuts/d03bb5333ed54f14895e9fed0d2b129e)
+[**本项目的快捷指令 iCloud 链接**](https://www.icloud.com/shortcuts/dd3ca46f6fc64d6092580ffb1edabdb8)
