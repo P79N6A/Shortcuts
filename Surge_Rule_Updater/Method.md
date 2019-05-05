@@ -18,8 +18,13 @@ RULE-SET,https://raw.githubusercontent.com/linzx91/Shortcuts/master/Surge_Rule_U
 ![](https://raw.githubusercontent.com/linzx91/Shortcuts/master/Images/Add_Rules_04.jpeg)
 
 如需替换项目内置规则集，则仅需更改`外部链接`即可，但不要在这里更改策略组信息，否则将可能会导致配置错误。
+
 RULE-SET,`外部链接`,🎬 Media,update-interval=3600
+
 `update-interval=3600`是自动更新间隔时间。
+
+![](https://raw.githubusercontent.com/linzx91/Shortcuts/master/Images/Add_Rules_05.png)
+
 <br /><br />
 
 **[获取相关媒体规则集](https://github.com/linzx91/Shortcuts/tree/master/Surge_Rule_Updater/Ruleset/Media)** ↵
