@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = *.zymk.cn
+
 let user_info = '/app_api/v5/getuserinfo/';
 let coin_account = '/app_api/v5/coin_account/';
 let ticket = '/app_api/v5/getuserinfo_ticket/';
@@ -20,6 +23,3 @@ if (url.indexOf(user_info) != -1) {
 }
 
 JSON.stringify(obj);
-
-// [MITM]
-// hostname = *.zymk.cn

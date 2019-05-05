@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = api.bilibili.com, app.bilibili.com
+
 var obj = JSON.parse(body);
 
 obj1=obj['data']['tab'];
@@ -22,6 +25,3 @@ obj['data']['bottom']=obj2
 delete obj['data']['top']
 
 JSON.stringify(obj);
-
-// [MITM]
-// hostname = api.bilibili.com, app.bilibili.com

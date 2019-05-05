@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = *.kuwo.cn
+
 var result = body
 
 let path = '/vip/v2/user/vip';
@@ -15,6 +18,3 @@ if (url.indexOf(path) != -1) {
 }
 
 result;
-
-// [MITM]
-// hostname = *.kuwo.cn

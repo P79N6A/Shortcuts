@@ -1,4 +1,7 @@
-var obj = JSON.parse(body); 
+// [MITM]
+// hostname = api.bilibili.com, app.bilibili.com
+
+var obj = JSON.parse(body);
 
 obj1=obj['data']['items'];
 
@@ -13,6 +16,3 @@ obj1.forEach(function (element, index, array) {
 obj['data']['items']=obj1
 
 JSON.stringify(obj);
-
-// [MITM]
-// hostname = api.bilibili.com, app.bilibili.com

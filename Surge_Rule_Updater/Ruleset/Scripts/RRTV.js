@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = api.rr.tv
+
 var result = body
 
 let path1 = '/user/profile';
@@ -29,6 +32,3 @@ if (url.indexOf(path3) != -1) {
 }
 
 result;
-
-// [MITM]
-// hostname = api.rr.tv

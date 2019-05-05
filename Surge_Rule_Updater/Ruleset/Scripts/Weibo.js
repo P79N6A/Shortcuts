@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = api.weibo.cn
+
 const path1 = "/groups/timeline";
 const path2 = "/statuses/unread";
 const path3 = "/statuses/extend";
@@ -142,6 +145,3 @@ if (url.indexOf(path9) != -1) {
 }
 
 result;
-
-// [MITM]
-// hostname = api.weibo.cn

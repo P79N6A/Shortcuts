@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = mp.weixin.qq.com
+
 var result = body
 
 let path = '/mp/getappmsgad?f=';
@@ -9,6 +12,3 @@ if (url.indexOf(path) != -1) {
 }
 
 result;
-
-// [MITM]
-// hostname = mp.weixin.qq.com

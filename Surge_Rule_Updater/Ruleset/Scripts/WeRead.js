@@ -1,3 +1,6 @@
+// [MITM]
+// hostname = i.weiread.qq.com
+
 var result = body
 
 let path = '/pay/memberCardSummary';
@@ -9,6 +12,3 @@ if (url.indexOf(path) != -1) {
 }
 
 result;
-
-// [MITM]
-// hostname = i.weiread.qq.com

@@ -1,4 +1,7 @@
-var obj = JSON.parse(body); 
+// [MITM]
+// hostname = api.bilibili.com, app.bilibili.com
+
+var obj = JSON.parse(body);
 
 delete obj['data']['rec_channel'];
 
@@ -25,6 +28,3 @@ obj['data']['region_top']=obj1;
 obj['data']['region_bottom']=obj2;
 
 JSON.stringify(obj);
-
-// [MITM]
-// hostname = api.bilibili.com, app.bilibili.com

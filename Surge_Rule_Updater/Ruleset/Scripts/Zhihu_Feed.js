@@ -1,4 +1,8 @@
-var obj = JSON.parse(body); 
+// [MITM]
+// hostname = api.zhihu.com
+
+var obj = JSON.parse(body);
+
 obj1=obj['data'];
 
 obj1.forEach(function (element, index, array) {
@@ -11,6 +15,3 @@ obj1.forEach(function (element, index, array) {
 obj['data']=obj1
 
 JSON.stringify(obj);
-
-// [MITM]
-// hostname = api.zhihu.com
