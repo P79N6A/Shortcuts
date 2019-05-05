@@ -6,9 +6,9 @@
 
 * [**Siri 播报天气**](https://www.icloud.com/shortcuts/e9706f16f0954e8db18d6d8cd56006ed)
 
-* [**电视直播**](https://www.icloud.com/shortcuts/86e43f6873bb4ca78dc4dec5ad0a0d74)
+* [**Shortcuts TV**](https://www.icloud.com/shortcuts/86e43f6873bb4ca78dc4dec5ad0a0d74)
 
-* [**Surge Rule Updater**](https://www.icloud.com/shortcuts/92f772a844fc42e498877343a4e0841a)（仅适用于 Surge 3.4 版本以上）
+* [**Surge Rule Updater**](https://www.icloud.com/shortcuts/d03bb5333ed54f14895e9fed0d2b129e)
 
 * [**微信扫一扫**](https://www.icloud.com/shortcuts/4bbee97286fb40e2bcf26c8e70130207)
 
