@@ -3,7 +3,7 @@ AND,((USER-AGENT,NeteaseMusic*), (NOT,((DOMAIN-SUFFIX,music.163.com))))
 AND,((USER-AGENT,ZhihuHybrid*), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
 AND,((USER-AGENT,bili-blue*), (DOMAIN,api.weibo.com))
 AND,((USER-AGENT,bili-univeral*), (DOMAIN,api.weibo.com))
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))), (NOT,((DOMAIN,lens.zhihu.com))))
 DOMAIN-KEYWORD,adclick
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,admdfs
@@ -3641,7 +3641,6 @@ DOMAIN-SUFFIX,gp.jstv.com
 DOMAIN-SUFFIX,gpydym.cn
 DOMAIN-SUFFIX,gqswg.com
 DOMAIN-SUFFIX,grand.ele.me
-DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,green.erne.co
 DOMAIN-SUFFIX,greenhouseglobal.cn
 DOMAIN-SUFFIX,greenxfs.down.123ch.cn
