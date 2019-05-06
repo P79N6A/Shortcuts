@@ -1,44 +1,6 @@
-// Client
-PROCESS-NAME,ss-local
-
-// UA
-USER-AGENT,hide*
-USER-AGENT,MicroMessenger*
-USER-AGENT,PayPal*
-USER-AGENT,TeamViewer*
-USER-AGENT,TIM*
-USER-AGENT,ting_en
-USER-AGENT,WebTorrent*
-USER-AGENT,WeChat*
-
-// Beplay
-DOMAIN-KEYWORD,beplay
-
-// Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com
-DOMAIN-SUFFIX,blizzard.com
-
-// Prior
 DOMAIN,client.amplifi.com
 DOMAIN,ip.bjango.com
-DOMAIN-SUFFIX,alphassl.com
-DOMAIN-SUFFIX,edu.cn
-
-// Steam
-DOMAIN-SUFFIX,steamcontent.com
-
-// TeamViewer
-IP-CIDR,185.188.32.0/24,no-resolve
-IP-CIDR,185.188.33.0/24,no-resolve
-IP-CIDR,185.188.34.0/24,no-resolve
-IP-CIDR,185.188.35.0/24,no-resolve
-IP-CIDR6,2a0b:b580::/48,no-resolve
-IP-CIDR6,2a0b:b581::/48,no-resolve
-IP-CIDR6,2a0b:b582::/48,no-resolve
-IP-CIDR6,2a0b:b583::/48,no-resolve
-
-# Domestic
+DOMAIN-KEYWORD,beplay
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
@@ -62,6 +24,7 @@ DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.crisp.chat
@@ -73,13 +36,17 @@ DOMAIN-SUFFIX,aweme.snssdk.com
 DOMAIN-SUFFIX,bababian.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
 DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
+DOMAIN-SUFFIX,chdbits.co
 DOMAIN-SUFFIX,chinacache.net
 DOMAIN-SUFFIX,chunbo.com
 DOMAIN-SUFFIX,chunboimg.com
@@ -91,7 +58,6 @@ DOMAIN-SUFFIX,cmct.tv
 DOMAIN-SUFFIX,cmfu.com
 DOMAIN-SUFFIX,cnbeta.com
 DOMAIN-SUFFIX,cnbetacdn.com
-DOMAIN-SUFFIX,chdbits.co
 DOMAIN-SUFFIX,cnlang.org
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,dct-cloud.com
@@ -109,6 +75,7 @@ DOMAIN-SUFFIX,easou.com
 DOMAIN-SUFFIX,ecitic.com
 DOMAIN-SUFFIX,ecitic.net
 DOMAIN-SUFFIX,eclipse.org
+DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,eudic.net
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,feng.com
@@ -132,8 +99,8 @@ DOMAIN-SUFFIX,hxcdn.net
 DOMAIN-SUFFIX,iciba.com
 DOMAIN-SUFFIX,ifeng.com
 DOMAIN-SUFFIX,ifengimg.com
-DOMAIN-SUFFIX,images.unsplash.com
 DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,images.unsplash.com
 DOMAIN-SUFFIX,img4me.com
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipip.net
@@ -172,9 +139,9 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myunlu.com
-DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,nfoservers.com
+DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,ourbits.club
@@ -223,6 +190,7 @@ DOMAIN-SUFFIX,soso.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,startssl.com
+DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,store.steampowered.com
 DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,symcd.com
@@ -233,10 +201,10 @@ DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tmzvps.com
 DOMAIN-SUFFIX,tonymacx86.com
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,tp.m-team.cc
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,udache.com
@@ -288,5 +256,21 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmz002.com
-
 IP-CIDR,1.255.62.0/24,no-resolve
+IP-CIDR,185.188.32.0/24,no-resolve
+IP-CIDR,185.188.33.0/24,no-resolve
+IP-CIDR,185.188.34.0/24,no-resolve
+IP-CIDR,185.188.35.0/24,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve
+PROCESS-NAME,ss-local
+USER-AGENT,MicroMessenger*
+USER-AGENT,PayPal*
+USER-AGENT,TIM*
+USER-AGENT,TeamViewer*
+USER-AGENT,WeChat*
+USER-AGENT,WebTorrent*
+USER-AGENT,hide*
+USER-AGENT,ting_en

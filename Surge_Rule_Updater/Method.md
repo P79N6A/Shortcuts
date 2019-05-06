@@ -1,4 +1,4 @@
-## 自定义添加规则的方法
+## 自定义配置方法
 
 **首先在"Ruleset"目录中添加新项目**
 ![](https://raw.githubusercontent.com/linzx91/Shortcuts/master/Images/Add_Rules_01.jpeg)
