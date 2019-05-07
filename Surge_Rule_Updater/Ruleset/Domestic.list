@@ -1,6 +1,9 @@
 DOMAIN,client.amplifi.com
 DOMAIN,ip.bjango.com
+DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,beplay
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
@@ -92,7 +95,7 @@ DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,haosou.com
 DOMAIN-SUFFIX,hdchina.org
-​DOMAIN-SUFFIX,hdcmct.org
+DOMAIN-SUFFIX,hdcmct.org
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hxcdn.net
@@ -178,6 +181,7 @@ DOMAIN-SUFFIX,sinaapp.com
 DOMAIN-SUFFIX,sinaimg.cn
 DOMAIN-SUFFIX,sinaimg.com
 DOMAIN-SUFFIX,sm.ms
+DOMAIN-SUFFIX,smtp
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,snwx.com
@@ -266,6 +270,11 @@ IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
 PROCESS-NAME,ss-local
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(..+)?
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+USER-AGENT,ting_en
 USER-AGENT,MicroMessenger*
 USER-AGENT,PayPal*
 USER-AGENT,TIM*
@@ -274,4 +283,3 @@ USER-AGENT,WeChat*
 USER-AGENT,WebTorrent*
 USER-AGENT,hide*
 USER-AGENT,ting_en
-URL-REGEX,https?://raw.githubusercontent.com/linzx91/.*.list,notification-text=🔄 正在更新规则集…

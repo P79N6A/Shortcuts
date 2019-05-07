@@ -1,5 +1,5 @@
 // [MITM]
-// hostname = api.weibo.cn
+// hostname = api.weibo.cn, *.uve.weibo.com
 
 const path1 = "/groups/timeline";
 const path2 = "/statuses/unread";

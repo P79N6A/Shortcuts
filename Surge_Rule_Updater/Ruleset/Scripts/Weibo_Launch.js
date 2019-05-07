@@ -1,5 +1,5 @@
 // [MITM]
-// hostname = api.weibo.cn
+// hostname = api.weibo.cn, *.uve.weibo.com
 
 const path1 = "/interface/sdk/sdkad.php";
 const path2 = "/wbapplua/wbpullad.lua";
