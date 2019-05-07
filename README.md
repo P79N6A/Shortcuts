@@ -8,7 +8,7 @@
 
 * [**Shortcuts TV**](https://www.icloud.com/shortcuts/86e43f6873bb4ca78dc4dec5ad0a0d74)
 
-* [**Surge Rule Updater**](https://www.icloud.com/shortcuts/38cd46e15a2d47c6a1ade2848c7dffbb)
+* [**Surge Rule Updater**](https://www.icloud.com/shortcuts/9dd5d0d06ad743a9b4f3d8db4fdaf96e)
 
 * [**微信扫一扫**](https://www.icloud.com/shortcuts/4bbee97286fb40e2bcf26c8e70130207)
 
