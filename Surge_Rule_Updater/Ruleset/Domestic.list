@@ -274,3 +274,4 @@ USER-AGENT,WeChat*
 USER-AGENT,WebTorrent*
 USER-AGENT,hide*
 USER-AGENT,ting_en
+URL-REGEX,https?://raw.githubusercontent.com/linzx91/.*.list,notification-text=🔄 正在更新规则集…
